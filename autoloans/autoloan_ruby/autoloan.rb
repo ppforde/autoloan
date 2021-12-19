@@ -38,3 +38,5 @@ while present_value < 30000
 end
  
 file.close
+
+# ruby autoloan.rb

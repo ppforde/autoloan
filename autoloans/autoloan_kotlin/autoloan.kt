@@ -51,7 +51,7 @@ fun main(args: Array<String>) {
     println("Total records: $countall and total payments: ${Math.round(sumall*100.0)/100.0}")
     println()
  
-    File("../loans.csv").writeText(rows)
+    File("loans.csv").writeText(rows)
 }
  
 fun AutoLoan(presentValue:Int, numberPeriods:Int, interestRate:Double): Double {
@@ -68,4 +68,10 @@ fun StatusUpdate(monthlyPayment:Double): String {
         return "ok"
     }    
 }
- 
+
+/*
+sudo snap install ---classic kotlin
+
+kotlinc hello.kt -include-runtime -d hello.jar
+java -jar hello.jar
+*/

@@ -57,5 +57,7 @@ while($present_value < 30000) {
 }
  
 printf("\nTotal records: %d with total payments: $%.2f\n", $count_all, $sum_all)
- 
+
+// php autoloan.php
 ?>
+
