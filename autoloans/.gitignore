@@ -1,0 +1,10 @@
+*.csv
+*.zip
+*.gzip
+*.txt
+*.xlsx
+*.tsv
+*.json
+*.tar
+*.TXT
+*.parquet
