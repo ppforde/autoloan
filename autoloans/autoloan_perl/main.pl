@@ -29,7 +29,7 @@ while ($pv < 30000) {
             $status = "ok";
         }
        
-       printf("pv => %d, nper => %d, rate => %0.2f = pmt of %0.2f is %s on %s\n", $pv, $x, $rate, $pmt, $status, $datstr);
+       printf("pv => %d, nper => %d, rate => %0.2f = pmt of %0.2f is %s on %s\n", $pv, $x, $rate, $pmt, $status, $datestr);
        $line = sprintf("%d,%d,%0.2f,%0.2f,%s,%s\n", $pv, $x, $rate, $pmt, $status, $datestr);
        print $fh $line;
     }
