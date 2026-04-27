@@ -40,16 +40,6 @@ while (presentValue < 30000) {
  
         /*
  
-        // Demonstrate nested JSON
-                var salesperson = {
-                    FNAME: "Gregg",
-                    LNAME: "Atherley",
-                    AGE: 49,
-                    LOCATION: "New York",
-                    BONUS: bonus
-                }
-        */
- 
         // Add SALES to demonstrate nested JSON
  
         var payment = {
